@@ -1,0 +1,37 @@
+Created heap: H
+Inserted 2 into heap H
+(2()->)
+Inserted 10 into heap H
+(2()->10()->)
+Inserted 5 into heap H
+(2()->10()->5()->)
+Inserted 25 into heap H
+(2()->10()->5()->25()->)
+Inserted 3 into heap H
+(2()->10()->5()->25()->3()->)
+Minimum: 2
+Element extracted from heap H: 2
+Heap H after extraction 
+(3(5(10()->)->25()->)->)
+Heap H after decreasing key 25 to 10
+(3(5(10()->)->10()->)->)
+Inserted 40 into heap H
+(3(5(10()->)->10()->)->40()->)
+Created heap: Y
+Inserted 70 into heap Y
+(70()->)
+Inserted 62 into heap Y
+(62()->70()->)
+Inserted 19 into heap Y
+(19()->62()->70()->)
+Inserted 45 into heap Y
+(19()->62()->70()->45()->)
+Element extracted from heap Y: 19
+Heap Y after extraction 
+(45()->62(70()->)->)
+Heap H
+(3(5(10()->)->10()->)->40()->45()->62(70()->)->)
+Heap Y
+(45()->62(70()->)->3(5(10()->)->10()->)->40()->)
+Heap k
+(3(5(10()->)->10()->)->40()->45()->62(70()->)->)
