@@ -1,0 +1,1 @@
+(Create,H), (Trace,H,true), (Insert,H,2), (Insert,H,10), (Insert,H,5), (Insert,H,25), (Insert,H,3), (Findmin,H), (Extractmin,H), (Decreasekey,H,25,10), (Insert,H,40), (Create,Y), (Trace,Y,true), (Insert,Y,70), (Insert,Y,62), (Insert,Y,19), (Insert,Y,45), (Extractmin,Y), (Merge,H,Y,k), (Display,k)
